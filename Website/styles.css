@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(rgba(32,32,32,0.5)80%, rgba(32, 32, 32, 0.5)80%), url(abstract-blue-geometric-shapes-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 109vh;
+}
+
+.navbar {
+    height: 75px;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(75, 212, 75, 0.4);
+}
+
+.icon {
+    height: 70px;
+    width: 500px;
+    float: left;
+}
+
+.icon .logo {
+    font-size: 50px;
+    color: whitesmoke;
+    padding: 5px 0 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.icon .logo:hover {
+    font-size: 52px;
+} 
+
+.menu {
+    display: flex;
+    float: left;
+    width: 600px;
+    height: 70px;
+    margin-left: 200px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify: content;
+    float: right;
+}
+
+li {
+    margin: 20px;
+    display: flex;
+    color: white; 
+    border-radius: 7%;
+    width: 100px;
+    align-items: center;
+    cursor: pointer;
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.btn2 {
+    vertical-align: center;
+}
+
+li:hover {
+    font-size: 18px;
+}
+
+.head {
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.heading {
+    color: white;
+    font-size: 40px;
+}
+
+.heading span {
+    color: red;
+    font-size: 50px;
+}
+
+.article {
+    margin-top: 30px;
+    background-color: rgba(254, 255, 254, 0.836);
+    height: 150px;
+    width: 30%;
+    border-radius: 5%;
+}
+
+.article-text {
+    padding: 20px;
+    color: rgb(54, 150, 54);
+}
+
+.findout {
+    padding: 20px;
+}
+
+.findout-text {
+    color:white;
+}
+
+.btn {
+    margin-top: 20px;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(54, 150, 54);
+    border: 1px solid white;
+    border-radius: 7%;
+    color: white;
+}
+
+.btn:hover {
+    background-color: white;
+    color:rgb(54, 150, 54);
+    transition: 1s;
+}
+
+ a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn a:hover {
+    color:rgb(54, 150, 54);
+}
